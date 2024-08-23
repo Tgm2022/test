@@ -1,0 +1,48 @@
+/* Start reset */
+*,::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    img{
+        max-width: 100%;
+    }
+    a{
+        text-decoration:none;
+    }
+    ul{
+        list-style: none;
+    }
+  
+  /* End-Reset */
+  
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.accordion-btn{
+    width: 100%;
+    border: 0;
+    background-color: #eee;
+    text-align: left;
+    font-size: 16px;
+    padding: 20px;
+  
+}
+
+ .accordion-btn:after{
+   content: "\002B";
+   float: right;
+}
+
+ .accordion-btn::hover{
+    background:#ccc; 
+    cursor: pointer;
+    
+    
+ .desc{
+    display: none;
+    text-align: center;
+    
+}
